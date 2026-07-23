@@ -1,0 +1,270 @@
+{
+  "FVTT_SCENE_MERGER": {
+    "Actions": {
+      "BackToSetup": "Back to setup",
+      "Cancel": "Cancel",
+      "Cancelling": "Cancelling…",
+      "Clear": "Clear",
+      "Locate": "Locate in workspace",
+      "Merge": "Create merged Scene",
+      "MergeAnother": "Merge another layout",
+      "MoveDown": "Move later in stacking order",
+      "MoveUp": "Move earlier in stacking order",
+      "OpenScene": "Open new Scene"
+    },
+    "App": {
+      "GmBadge": "GM tool",
+      "Subtitle": "Arrange existing Scenes, review compatibility, then create a separate combined Scene.",
+      "Title": "Scene Merger"
+    },
+    "Controls": {
+      "Open": "Open Scene Merger"
+    },
+    "Defaults": {
+      "DestinationName": "Merged Scene"
+    },
+    "Documents": {
+      "AmbientLight": "Ambient Lights",
+      "AmbientSound": "Ambient Sounds",
+      "Drawing": "Drawings",
+      "Level": "Levels",
+      "Note": "Notes",
+      "Region": "Regions",
+      "RegionBehavior": "Region Behaviors",
+      "Tile": "Tiles and backgrounds",
+      "Token": "Tokens",
+      "Wall": "Walls"
+    },
+    "Execution": {
+      "CancellationClosed": "Destination creation has begun",
+      "Merging": "Creating the merged Scene",
+      "ReadySummary": "{count} sources · {width} × {height} destination pixels",
+      "ResolveIssues": "Resolve blocking issues and acknowledge reviewed warnings to continue.",
+      "SourceSafety": "Source Scenes remain unchanged throughout the merge.",
+      "Title": "Ready to merge"
+    },
+    "Layout": {
+      "DragScene": "Drag {name}; use arrow keys to nudge",
+      "Empty": "Add at least two Scenes, then drag their rectangles into the desired freeform layout.",
+      "GridSize": "Grid {size}px",
+      "Help": "Drag Scene bounds to position them. Empty-space drag pans; the wheel zooms.",
+      "Interval": "Interval (px)",
+      "OverlapWarning": "{count} overlapping pair(s). Overlap is allowed, but artwork and copied documents will stack in Scene order.",
+      "PanZoomHint": "Drag empty space to pan · Wheel to zoom",
+      "ResetView": "Reset view",
+      "Snap": {
+        "edge": "Scene edges",
+        "grid": "Source grid",
+        "none": "No snapping",
+        "pixel": "Pixel interval"
+      },
+      "SnapMode": "Snapping",
+      "Title": "Layout workspace",
+      "TotalBounds": "Merged bounds",
+      "ZoomFit": "Zoom to fit",
+      "ZoomIn": "Zoom in",
+      "ZoomOut": "Zoom out"
+    },
+    "Loading": {
+      "Body": "Checking permissions and loading World Scenes…",
+      "Title": "Preparing Scene Merger"
+    },
+    "MergeStage": {
+      "beforeDestination": "Before destination creation",
+      "calculatingBounds": "Calculating destination bounds",
+      "copyingDrawings": "Copying Drawings",
+      "copyingLights": "Copying Ambient Lights",
+      "copyingNotes": "Copying Notes",
+      "copyingRegions": "Copying Regions",
+      "copyingSounds": "Copying Ambient Sounds",
+      "copyingTiles": "Copying Tiles",
+      "copyingTokens": "Copying Tokens",
+      "copyingWalls": "Copying Walls",
+      "creatingBackgrounds": "Creating background Tiles",
+      "creatingScene": "Creating destination Scene",
+      "finalizing": "Finalizing destination Scene",
+      "rewritingReferences": "Rewriting supported references",
+      "validating": "Validating source Scenes"
+    },
+    "Options": {
+      "Content": {
+        "backgrounds": {
+          "Help": "Create locked Tiles for source backgrounds and foreground Level artwork.",
+          "Label": "Scene backgrounds"
+        },
+        "drawings": {
+          "Help": "Preserve shapes, points, text, and formatting.",
+          "Label": "Drawings"
+        },
+        "lights": {
+          "Help": "Copy position, configuration, and animation.",
+          "Label": "Ambient Lights"
+        },
+        "notes": {
+          "Help": "Keep valid Journal and document links.",
+          "Label": "Notes"
+        },
+        "regions": {
+          "Help": "Copy geometry and supported behaviors.",
+          "Label": "Regions"
+        },
+        "sounds": {
+          "Help": "Copy position, radius, path, and volume.",
+          "Label": "Ambient Sounds"
+        },
+        "templates": {
+          "Help": "Core v14 does not expose Measured Templates as Scene embedded documents.",
+          "Label": "Measured Templates"
+        },
+        "tiles": {
+          "Help": "Preserve texture, elevation, sort, occlusion, and movement restrictions supported by v14.",
+          "Label": "Tiles"
+        },
+        "tokens": {
+          "Help": "Keep Actor links; Actors are never duplicated.",
+          "Label": "Tokens"
+        },
+        "walls": {
+          "Help": "Translate endpoints and preserve restrictions and doors.",
+          "Label": "Walls"
+        }
+      },
+      "ContentTitle": "Content to copy",
+      "Destination": {
+        "activateAfterMerge": {
+          "Help": "Make the new Scene active for players after success.",
+          "Label": "Activate after merging"
+        },
+        "lockBackgroundTiles": {
+          "Help": "Prevents accidental movement of imported map artwork.",
+          "Label": "Lock background Tiles"
+        },
+        "navigation": {
+          "Help": "Add the new Scene to the navigation bar.",
+          "Label": "Show in navigation"
+        },
+        "openAfterMerge": {
+          "Help": "Open the new Scene for the current GM after success.",
+          "Label": "Open after merging"
+        }
+      },
+      "DestinationTitle": "Destination Scene",
+      "Folder": "Folder",
+      "Help": "Choose exactly what will be cloned into the new destination.",
+      "Name": "Scene name",
+      "Title": "Merge options",
+      "UnavailableV14": "Unavailable in Foundry v14"
+    },
+    "Preview": {
+      "Title": "Foundry VTT Scene Merger"
+    },
+    "Results": {
+      "Copied": "Documents copied",
+      "Diagnostics": "Diagnostics",
+      "FailureSafety": "Source Scenes were not modified. Any unusable partial destination is cleaned up when safe; consult the module log for details.",
+      "FailureStage": "The merge stopped during: {stage}.",
+      "FailureTitle": "Merge could not be completed",
+      "NoReviewItems": "No manual review items.",
+      "None": "No embedded documents copied.",
+      "NoneSkipped": "No documents skipped.",
+      "ReferencesRewritten": "References rewritten",
+      "Review": "Warnings and unresolved references",
+      "Rewritten": "References rewritten",
+      "Skipped": "Documents skipped",
+      "SuccessDimensions": "{width} × {height} pixels from {count} source Scenes.",
+      "SuccessTitle": "Created {name}",
+      "Unresolved": "Unresolved references",
+      "Warnings": "Warnings"
+    },
+    "Selection": {
+      "AddNamed": "Add {name}",
+      "GridDetails": "Grid type {type} · {size}px · {distance} {units}",
+      "Help": "Choose two or more source Scenes. List order controls background stacking.",
+      "NoMatches": "No unselected Scenes match this search.",
+      "RemoveNamed": "Remove {name}",
+      "RootFolder": "Root folder",
+      "Search": "Search Scenes or folders…",
+      "Selected": "Selected and stacking order",
+      "Title": "Source Scenes"
+    },
+    "Settings": {
+      "CleanupPartial": {
+        "Hint": "Delete an unusable partial destination automatically when a failed merge can be cleaned up safely.",
+        "Name": "Clean up partial destinations"
+      },
+      "DebugLogging": {
+        "Hint": "Write additional Scene Merger diagnostics to the browser console for troubleshooting.",
+        "Name": "Enable debug logging"
+      },
+      "Open": {
+        "Label": "Open Scene Merger",
+        "Name": "Scene Merger"
+      }
+    },
+    "Status": {
+      "failure": "Needs attention",
+      "loading": "Loading",
+      "merging": "Merge in progress",
+      "ready": "Setup",
+      "success": "Complete"
+    },
+    "Validation": {
+      "Acknowledge": "I reviewed these warnings and want to continue",
+      "AcknowledgeHelp": "Overlapping artwork, unsupported references, and large layouts may need manual review after the merge.",
+      "Blocked": "Blocked",
+      "Estimate": {
+        "Animated": "{value} animated asset(s)",
+        "Area": "Area {value}px²",
+        "Textures": "Textures {value}px²",
+        "Tokens": "{value} Tokens",
+        "Walls": "{value} Walls"
+      },
+      "Help": "Blocking issues prevent an unsafe merge; warnings may be acknowledged.",
+      "Issues": {
+        "assets_unavailable": "One or more background or Tile asset paths returned a missing-file response.",
+        "assets_unverified": "One or more background or Tile asset paths could not be verified and need manual review.",
+        "background_transform": "One or more backgrounds use transforms that require review.",
+        "background_colorMismatch": "Source Levels use different background colors; only one destination-wide color can be retained.",
+        "content_templatesUnavailable": "Measured Templates are unavailable as Scene content in Foundry v14.",
+        "destination_folderUnavailable": "The selected destination folder is no longer available.",
+        "destination_nameRequired": "Enter a name for the destination Scene.",
+        "flags_moduleData": "Module-specific flags may contain data this merger cannot safely interpret.",
+        "grid_distanceMismatch": "Source Scenes use different grid distance scales.",
+        "grid_regionAlignment": "A Region uses grid-aligned geometry that may not align in the destination.",
+        "grid_regionShapeUnsupported": "Grid-shaped Regions on hexagonal or gridless Scenes cannot currently be translated safely.",
+        "grid_sizeMismatch": "Source Scenes use different grid sizes and cannot be translated reliably.",
+        "grid_typeMismatch": "Source Scenes use incompatible grid types.",
+        "grid_unitsMismatch": "Source Scenes use different measurement units.",
+        "layout_invalidDimensions": "A Scene has invalid or unusable playable dimensions.",
+        "layout_duplicate": "The layout contains more than one placement for the same source Scene.",
+        "layout_missing": "One or more selected Scenes are missing a layout placement.",
+        "layout_unknown": "The layout contains a placement that does not belong to a selected source Scene.",
+        "layout_overlap": "Scene rectangles overlap. Artwork and documents will use deterministic stacking order.",
+        "levels_multiple": "Each source must contain exactly one Level for this merge.",
+        "performance_animatedAssets": "Animated backgrounds or Tiles may increase rendering cost.",
+        "performance_area": "The destination has a very large total pixel area.",
+        "performance_backgrounds": "The merge includes many source background images.",
+        "performance_dimension": "A destination dimension is unusually large.",
+        "performance_lights": "The combined Ambient Light count may affect performance.",
+        "performance_regions": "The combined Region count may affect performance.",
+        "performance_sounds": "The combined Ambient Sound count may affect performance.",
+        "performance_textures": "The estimated combined texture usage is high.",
+        "performance_tiles": "The combined Tile and converted-background count may affect performance.",
+        "performance_tokens": "The combined Token count may affect performance.",
+        "performance_walls": "The combined Wall count may affect performance.",
+        "references_crossScene": "Cross-Scene document references may not all be rewritable.",
+        "regions_attachedUnsupported": "Regions attached to Tokens cannot currently be translated safely; disable Regions or detach them in the source first.",
+        "regions_tokenShapeUnsupported": "Token-linked Region shapes cannot currently be translated safely; disable Regions or replace those shapes first.",
+        "regions_unsupportedBehavior": "Some Region behaviors contain references or behavior types that need manual review.",
+        "regions_unsupportedShape": "A Region contains a non-core or unknown shape that cannot be translated safely.",
+        "selection_duplicate": "The same Scene was selected more than once.",
+        "selection_tooFew": "Select at least two valid source Scenes.",
+        "selection_unavailable": "A selected Scene is unavailable or cannot be merged.",
+        "tokens_missingActor": "A selected Token references an Actor that is no longer available."
+      },
+      "NoIssues": "No compatibility or performance issues were detected.",
+      "Ready": "Ready",
+      "Title": "Compatibility review"
+    }
+  }
+}
