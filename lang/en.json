@@ -45,6 +45,7 @@
     },
     "Layout": {
       "DragScene": "Drag {name}; use arrow keys to nudge",
+      "EdgesAligned": "Edges aligned",
       "Empty": "Add at least two Scenes, then drag their rectangles into the desired freeform layout.",
       "GridSize": "Grid {size}px",
       "Help": "Drag Scene bounds to position them. Empty-space drag pans; the wheel zooms.",
